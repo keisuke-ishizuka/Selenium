@@ -1,4 +1,4 @@
-package ex00;
+package ensyu;
 
 public class E01 {
 

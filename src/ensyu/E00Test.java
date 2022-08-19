@@ -1,4 +1,4 @@
-package ex00;
+package ensyu;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-class E01Test {
+class E00Test {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -37,7 +37,9 @@ class E01Test {
 		Thread.sleep(5000); //処理を停止(動作確認の為)
 		//ブラウザの要素を指定 メソッド名がわかりやすいですよね。
 		WebElement searchBox = driver.findElement(By.name("q"));
+	
 		searchBox.sendKeys("ChromeDriver");
+		
 		searchBox.submit();
 
 		Thread.sleep(5000);
