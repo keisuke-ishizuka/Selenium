@@ -44,9 +44,9 @@ class E02Test {
 		Thread.sleep(2000);
 		
 		//ログインメールアドレスの入力
-		driver.findElement(By.name("log")).sendKeys("keisuke.ishizuka@rakus-partners.co.jp");
+		driver.findElement(By.name("log")).sendKeys("");
 		//ログインパスワードの入力
-		driver.findElement(By.name("pwd")).sendKeys("keisuke.ishizuka@rakus-partners.co.jp");
+		driver.findElement(By.name("pwd")).sendKeys("");
 		//ログインボタンの押下
 		driver.findElement(By.name("wp-submit")).click();
 		//処理を停止(動作確認の為)
